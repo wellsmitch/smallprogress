@@ -1,0 +1,2 @@
+<!--pages/saoma/saoma.wxml-->
+<button bindtap='saoma'>saoma1</button>

@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+<view bindtap='getdata'>获取数据</view>
+<navigator url='../video/video'>video</navigator>
+<navigator url='../camera/camera'>camera</navigator>
+<navigator url='../livePlayer/livePlayer'>livePlayer</navigator>
+<navigator url='../map/map'>map</navigator>
+<navigator url='../saoma/saoma'>saoma</navigator>
+<button class='btn1_' bindtap='gotoabout'>跳转</button>
+<view bindtap='fu'>
+<button class='btn2' bindtap='aa'>冒泡</button>
+
+<button class='btn3' catchtap='bb'>阻止冒泡</button>
+<view>{{msg}}</view>
+  <button class='btn4' catchtap='edit'>修改数据</button>
+</view>
+<view wx:for="{{arr}}" wx:key="{{index}}">{{item}}</view>
+<view wx:for="{{arr}}" wx:key="{{index}}">{{item}}</view>
+<template is='tem' data="{{tem}}"></template>
+<audio
+  id="myAudio"
+  controls
+  loop
+></audio>
+<button bindtap='openAudio'>播放视频</button>
+
+<input placeholder='请输入' class='ipt' bindinput='getval' value="{{val}}"></input>
+<button bindtap='add'>add</button>
+<view wx:for="{{list}}" wx:key="{{index}}">
+{{item}}--{{index}}--<button size='mini' bindtap='del' data-aaaa='{{index}}'>删除</button>
+</view>
+<view class="body-view">
+  <switch checked bindchange="switch1Change" />
+  <switch bindchange="switch2Change" />
+</view>
+
+<template name='tem'>
+  <text>hello</text>
+  <view>hehe</view>
+   <view>{{tem}}</view>
+</template>

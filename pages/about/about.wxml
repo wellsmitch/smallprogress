@@ -1,0 +1,8 @@
+<!--pages/about/about.wxml-->
+<text>pages/about/about.wxml</text>
+<button bindtap='toast'>loading</button>
+<navigator url='../other/other'>to other</navigator>
+<button bindtap='back'>返回</button>
+<button bindtap='luyin'>录音</button>
+<button bindtap='stopluyin'>停止录音</button>
+<button bindtap='startluyin'>播放录音</button>

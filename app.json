@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/other/other",
+    "pages/audio/audio",
+    "pages/video/video",
+    "pages/camera/camera",
+    "pages/livePlayer/livePlayer",
+    "pages/map/map",
+    "pages/saoma/saoma",
+    "pages/wx.getSystemInfoSync/wx.getSystemInfoSync"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#e4cc94",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"default",
+    "backgroundColor": "#7cd1a0",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true,
+    "backgroundColorTop":"#fff0",
+    "onReachBottomDistance":"50px"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1269d3",
+    "backgroundColor":"#d6f3d5",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"pages/icon/xing33.png",
+        "selectedIconPath": "pages/icon/xingcolor.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "pages/icon/Apple33.png",
+        "selectedIconPath": "pages/icon/Apple color.png",
+        "text": "logs"
+      }
+    ]
+  }
+}

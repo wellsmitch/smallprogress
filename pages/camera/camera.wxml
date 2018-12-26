@@ -1,0 +1,13 @@
+<view class="step_item">
+    <!-- 按钮 -->
+    <view class="content_button">
+        <view class="content_button_panel">
+            <text>驾驶员驾照</text>
+            <image bindtap='clickCarWin' src="../../images/zhaoxiangji.png" background-size="contain"></image>
+        </view>
+    </view>
+<!-- 存放照片  -->
+    <view hidden='{{carDriver_img_hidden}}' class="content_zhaopian" style="height:400rpx;">
+        <image class="_success" src="{{carWin_img!=''?carWin_img:'../icon/Apple33.png'}}" background-size="100% 100%"></image>
+    </view>
+</view>
